@@ -1,0 +1,1172 @@
+___________TEST VALIDITY___________
+SUCCESS = 1061/1459 test cases
+accuracy = 72.72%
+
+___________TREE___________
+
+alcohol <= 10.85  -->  
+    volatileAcidity <= 0.2525  -->  
+        fixedAcidity <= 6.65  -->  
+            sulphates <= 0.525  -->  
+                pH <= 3.355  -->  
+                    totalSulfurDioxide <= 129.5  -->  
+                        density <= 0.99687  -->  
+                            freeSulfurDioxide <= 22.5  -->  
+                                residualSugar <= 4.7  -->  
+                                    chlorides <= 0.151  -->  
+                                        citricAcid <= 0.345  -->  5
+                                        citricAcid > 0.345  -->  5
+                                    chlorides > 0.151  -->  6
+                                residualSugar > 4.7  -->  
+                                    chlorides <= 0.0585  -->  
+                                        citricAcid <= 0.26  -->  6
+                                        citricAcid > 0.26  -->  6
+                                    chlorides > 0.0585  -->  5
+                            freeSulfurDioxide > 22.5  -->  
+                                chlorides <= 0.0385  -->  
+                                    citricAcid <= 0.445  -->  
+                                        residualSugar <= 11.875  -->  6
+                                        residualSugar > 11.875  -->  5
+                                    citricAcid > 0.445  -->  
+                                        residualSugar <= 6.2  -->  6
+                                        residualSugar > 6.2  -->  8
+                                chlorides > 0.0385  -->  
+                                    citricAcid <= 0.185  -->  5
+                                    citricAcid > 0.185  -->  
+                                        residualSugar <= 5.5  -->  6
+                                        residualSugar > 5.5  -->  6
+                        density > 0.99687  -->  6
+                    totalSulfurDioxide > 129.5  -->  
+                        density <= 0.99501  -->  
+                            citricAcid <= 0.56  -->  
+                                chlorides <= 0.0395  -->  
+                                    residualSugar <= 9.3  -->  
+                                        freeSulfurDioxide <= 22.5  -->  6
+                                        freeSulfurDioxide > 22.5  -->  5
+                                    residualSugar > 9.3  -->  
+                                        freeSulfurDioxide <= 41.5  -->  7
+                                        freeSulfurDioxide > 41.5  -->  5
+                                chlorides > 0.0395  -->  
+                                    freeSulfurDioxide <= 47.5  -->  
+                                        residualSugar <= 8.6  -->  6
+                                        residualSugar > 8.6  -->  3
+                                    freeSulfurDioxide > 47.5  -->  
+                                        residualSugar <= 6.15  -->  5
+                                        residualSugar > 6.15  -->  6
+                            citricAcid > 0.56  -->  
+                                freeSulfurDioxide <= 55.0  -->  5
+                                freeSulfurDioxide > 55.0  -->  7
+                        density > 0.99501  -->  
+                            freeSulfurDioxide <= 16.5  -->  7
+                            freeSulfurDioxide > 16.5  -->  
+                                residualSugar <= 17.15  -->  
+                                    citricAcid <= 0.64  -->  
+                                        chlorides <= 0.0375  -->  6
+                                        chlorides > 0.0375  -->  5
+                                    citricAcid > 0.64  -->  6
+                                residualSugar > 17.15  -->  
+                                    chlorides <= 0.0735  -->  6
+                                    chlorides > 0.0735  -->  5
+                pH > 3.355  -->  
+                    chlorides <= 0.0465  -->  
+                        residualSugar <= 6.25  -->  
+                            density <= 0.99665  -->  
+                                freeSulfurDioxide <= 18.5  -->  5
+                                freeSulfurDioxide > 18.5  -->  
+                                    citricAcid <= 0.215  -->  7
+                                    citricAcid > 0.215  -->  
+                                        totalSulfurDioxide <= 174.75  -->  6
+                                        totalSulfurDioxide > 174.75  -->  7
+                            density > 0.99665  -->  3
+                        residualSugar > 6.25  -->  
+                            totalSulfurDioxide <= 123.5  -->  6
+                            totalSulfurDioxide > 123.5  -->  
+                                freeSulfurDioxide <= 44.5  -->  
+                                    density <= 0.99525  -->  5
+                                    density > 0.99525  -->  
+                                        citricAcid <= 0.295  -->  5
+                                        citricAcid > 0.295  -->  7
+                                freeSulfurDioxide > 44.5  -->  
+                                    density <= 0.99752  -->  6
+                                    density > 0.99752  -->  7
+                    chlorides > 0.0465  -->  
+                        citricAcid <= 0.29  -->  
+                            totalSulfurDioxide <= 120.0  -->  6
+                            totalSulfurDioxide > 120.0  -->  5
+                        citricAcid > 0.29  -->  
+                            residualSugar <= 13.5  -->  
+                                density <= 0.99812  -->  
+                                    totalSulfurDioxide <= 189.5  -->  
+                                        freeSulfurDioxide <= 50.5  -->  6
+                                        freeSulfurDioxide > 50.5  -->  6
+                                    totalSulfurDioxide > 189.5  -->  6
+                                density > 0.99812  -->  6
+                            residualSugar > 13.5  -->  5
+            sulphates > 0.525  -->  
+                chlorides <= 0.0415  -->  
+                    citricAcid <= 0.265  -->  
+                        density <= 0.99301  -->  
+                            pH <= 3.57  -->  
+                                totalSulfurDioxide <= 154.5  -->  6
+                                totalSulfurDioxide > 154.5  -->  7
+                            pH > 3.57  -->  7
+                        density > 0.99301  -->  6
+                    citricAcid > 0.265  -->  
+                        density <= 0.99347  -->  
+                            pH <= 3.2  -->  
+                                residualSugar <= 1.0  -->  5
+                                residualSugar > 1.0  -->  7
+                            pH > 3.2  -->  
+                                freeSulfurDioxide <= 45.0  -->  
+                                    totalSulfurDioxide <= 124.5  -->  
+                                        residualSugar <= 1.35  -->  7
+                                        residualSugar > 1.35  -->  6
+                                    totalSulfurDioxide > 124.5  -->  7
+                                freeSulfurDioxide > 45.0  -->  6
+                        density > 0.99347  -->  7
+                chlorides > 0.0415  -->  
+                    totalSulfurDioxide <= 126.5  -->  
+                        pH <= 3.285  -->  6
+                        pH > 3.285  -->  
+                            freeSulfurDioxide <= 16.5  -->  
+                                density <= 0.9936  -->  7
+                                density > 0.9936  -->  6
+                            freeSulfurDioxide > 16.5  -->  
+                                citricAcid <= 0.205  -->  5
+                                citricAcid > 0.205  -->  
+                                    density <= 0.99212  -->  
+                                        residualSugar <= 1.7  -->  5
+                                        residualSugar > 1.7  -->  6
+                                    density > 0.99212  -->  6
+                    totalSulfurDioxide > 126.5  -->  
+                        residualSugar <= 5.55  -->  
+                            pH <= 3.685  -->  
+                                density <= 0.9944  -->  
+                                    freeSulfurDioxide <= 34.5  -->  6
+                                    freeSulfurDioxide > 34.5  -->  
+                                        citricAcid <= 0.29  -->  7
+                                        citricAcid > 0.29  -->  7
+                                density > 0.9944  -->  6
+                            pH > 3.685  -->  
+                                density <= 0.99507  -->  
+                                    freeSulfurDioxide <= 37.0  -->  6
+                                    freeSulfurDioxide > 37.0  -->  5
+                                density > 0.99507  -->  4
+                        residualSugar > 5.55  -->  
+                            citricAcid <= 0.52  -->  
+                                density <= 0.99726  -->  
+                                    freeSulfurDioxide <= 62.5  -->  
+                                        pH <= 3.115  -->  5
+                                        pH > 3.115  -->  6
+                                    freeSulfurDioxide > 62.5  -->  
+                                        pH <= 3.16  -->  6
+                                        pH > 3.16  -->  7
+                                density > 0.99726  -->  6
+                            citricAcid > 0.52  -->  5
+        fixedAcidity > 6.65  -->  
+            freeSulfurDioxide <= 16.5  -->  
+                residualSugar <= 4.2  -->  
+                    totalSulfurDioxide <= 129.0  -->  
+                        chlorides <= 0.0435  -->  
+                            sulphates <= 0.3  -->  3
+                            sulphates > 0.3  -->  
+                                density <= 0.99257  -->  
+                                    pH <= 2.955  -->  4
+                                    pH > 2.955  -->  
+                                        citricAcid <= 0.355  -->  5
+                                        citricAcid > 0.355  -->  5
+                                density > 0.99257  -->  
+                                    pH <= 3.465  -->  
+                                        citricAcid <= 0.355  -->  5
+                                        citricAcid > 0.355  -->  5
+                                    pH > 3.465  -->  6
+                        chlorides > 0.0435  -->  
+                            sulphates <= 0.46  -->  
+                                citricAcid <= 0.355  -->  6
+                                citricAcid > 0.355  -->  
+                                    pH <= 3.11  -->  6
+                                    pH > 3.11  -->  7
+                            sulphates > 0.46  -->  
+                                density <= 0.99386  -->  
+                                    pH <= 3.205  -->  5
+                                    pH > 3.205  -->  8
+                                density > 0.99386  -->  
+                                    citricAcid <= 0.44  -->  
+                                        pH <= 2.94  -->  5
+                                        pH > 2.94  -->  4
+                                    citricAcid > 0.44  -->  
+                                        pH <= 3.15  -->  6
+                                        pH > 3.15  -->  5
+                    totalSulfurDioxide > 129.0  -->  5
+                residualSugar > 4.2  -->  
+                    chlorides <= 0.03  -->  
+                        sulphates <= 0.47  -->  8
+                        sulphates > 0.47  -->  7
+                    chlorides > 0.03  -->  
+                        density <= 0.9992  -->  
+                            totalSulfurDioxide <= 90.5  -->  
+                                sulphates <= 0.46  -->  8
+                                sulphates > 0.46  -->  6
+                            totalSulfurDioxide > 90.5  -->  
+                                sulphates <= 0.67  -->  
+                                    pH <= 2.975  -->  
+                                        citricAcid <= 0.46  -->  5
+                                        citricAcid > 0.46  -->  6
+                                    pH > 2.975  -->  
+                                        citricAcid <= 0.265  -->  6
+                                        citricAcid > 0.265  -->  6
+                                sulphates > 0.67  -->  5
+                        density > 0.9992  -->  3
+            freeSulfurDioxide > 16.5  -->  
+                density <= 0.99801  -->  
+                    totalSulfurDioxide <= 150.5  -->  
+                        chlorides <= 0.0515  -->  
+                            sulphates <= 0.365  -->  
+                                citricAcid <= 0.365  -->  
+                                    pH <= 2.845  -->  
+                                        residualSugar <= 1.15  -->  4
+                                        residualSugar > 1.15  -->  5
+                                    pH > 2.845  -->  
+                                        residualSugar <= 10.4  -->  6
+                                        residualSugar > 10.4  -->  6
+                                citricAcid > 0.365  -->  
+                                    pH <= 2.965  -->  
+                                        residualSugar <= 4.95  -->  7
+                                        residualSugar > 4.95  -->  4
+                                    pH > 2.965  -->  
+                                        residualSugar <= 1.2  -->  4
+                                        residualSugar > 1.2  -->  5
+                            sulphates > 0.365  -->  
+                                residualSugar <= 1.85  -->  
+                                    citricAcid <= 0.475  -->  
+                                        pH <= 3.115  -->  6
+                                        pH > 3.115  -->  6
+                                    citricAcid > 0.475  -->  
+                                        pH <= 3.01  -->  7
+                                        pH > 3.01  -->  6
+                                residualSugar > 1.85  -->  
+                                    pH <= 3.175  -->  
+                                        citricAcid <= 0.375  -->  6
+                                        citricAcid > 0.375  -->  6
+                                    pH > 3.175  -->  
+                                        citricAcid <= 0.295  -->  6
+                                        citricAcid > 0.295  -->  6
+                        chlorides > 0.0515  -->  
+                            pH <= 3.1  -->  
+                                residualSugar <= 10.75  -->  
+                                    citricAcid <= 0.77  -->  
+                                        sulphates <= 0.36  -->  5
+                                        sulphates > 0.36  -->  5
+                                    citricAcid > 0.77  -->  6
+                                residualSugar > 10.75  -->  6
+                            pH > 3.1  -->  
+                                residualSugar <= 1.45  -->  
+                                    citricAcid <= 0.37  -->  6
+                                    citricAcid > 0.37  -->  7
+                                residualSugar > 1.45  -->  
+                                    citricAcid <= 0.355  -->  
+                                        sulphates <= 0.64  -->  6
+                                        sulphates > 0.64  -->  6
+                                    citricAcid > 0.355  -->  
+                                        sulphates <= 0.665  -->  6
+                                        sulphates > 0.665  -->  5
+                    totalSulfurDioxide > 150.5  -->  
+                        citricAcid <= 0.305  -->  
+                            residualSugar <= 8.15  -->  
+                                chlorides <= 0.0395  -->  
+                                    pH <= 3.165  -->  5
+                                    pH > 3.165  -->  
+                                        sulphates <= 0.735  -->  5
+                                        sulphates > 0.735  -->  4
+                                chlorides > 0.0395  -->  
+                                    sulphates <= 0.48  -->  
+                                        pH <= 3.18  -->  5
+                                        pH > 3.18  -->  6
+                                    sulphates > 0.48  -->  
+                                        pH <= 3.54  -->  6
+                                        pH > 3.54  -->  3
+                            residualSugar > 8.15  -->  
+                                sulphates <= 0.45  -->  
+                                    chlorides <= 0.04  -->  5
+                                    chlorides > 0.04  -->  
+                                        pH <= 3.1  -->  5
+                                        pH > 3.1  -->  6
+                                sulphates > 0.45  -->  
+                                    pH <= 3.065  -->  
+                                        chlorides <= 0.0395  -->  6
+                                        chlorides > 0.0395  -->  6
+                                    pH > 3.065  -->  6
+                        citricAcid > 0.305  -->  
+                            pH <= 2.94  -->  6
+                            pH > 2.94  -->  
+                                sulphates <= 0.475  -->  
+                                    chlorides <= 0.057  -->  
+                                        residualSugar <= 1.5  -->  6
+                                        residualSugar > 1.5  -->  6
+                                    chlorides > 0.057  -->  
+                                        residualSugar <= 12.05  -->  6
+                                        residualSugar > 12.05  -->  6
+                                sulphates > 0.475  -->  
+                                    residualSugar <= 13.75  -->  
+                                        chlorides <= 0.0425  -->  6
+                                        chlorides > 0.0425  -->  6
+                                    residualSugar > 13.75  -->  
+                                        chlorides <= 0.048  -->  6
+                                        chlorides > 0.048  -->  7
+                density > 0.99801  -->  
+                    citricAcid <= 0.305  -->  
+                        chlorides <= 0.0555  -->  
+                            pH <= 3.155  -->  
+                                sulphates <= 0.505  -->  
+                                    residualSugar <= 16.35  -->  
+                                        totalSulfurDioxide <= 201.0  -->  7
+                                        totalSulfurDioxide > 201.0  -->  7
+                                    residualSugar > 16.35  -->  
+                                        totalSulfurDioxide <= 228.0  -->  5
+                                        totalSulfurDioxide > 228.0  -->  6
+                                sulphates > 0.505  -->  
+                                    totalSulfurDioxide <= 222.5  -->  5
+                                    totalSulfurDioxide > 222.5  -->  6
+                            pH > 3.155  -->  5
+                        chlorides > 0.0555  -->  
+                            residualSugar <= 13.8  -->  
+                                sulphates <= 0.37  -->  6
+                                sulphates > 0.37  -->  7
+                            residualSugar > 13.8  -->  
+                                sulphates <= 0.48  -->  
+                                    pH <= 3.045  -->  
+                                        totalSulfurDioxide <= 160.5  -->  8
+                                        totalSulfurDioxide > 160.5  -->  4
+                                    pH > 3.045  -->  
+                                        totalSulfurDioxide <= 192.75  -->  6
+                                        totalSulfurDioxide > 192.75  -->  8
+                                sulphates > 0.48  -->  
+                                    pH <= 3.075  -->  6
+                                    pH > 3.075  -->  5
+                    citricAcid > 0.305  -->  
+                        totalSulfurDioxide <= 152.0  -->  
+                            sulphates <= 0.645  -->  
+                                pH <= 3.34  -->  
+                                    residualSugar <= 14.5  -->  
+                                        chlorides <= 0.052  -->  6
+                                        chlorides > 0.052  -->  5
+                                    residualSugar > 14.5  -->  5
+                                pH > 3.34  -->  
+                                    residualSugar <= 13.525  -->  5
+                                    residualSugar > 13.525  -->  7
+                            sulphates > 0.645  -->  8
+                        totalSulfurDioxide > 152.0  -->  
+                            sulphates <= 0.455  -->  
+                                pH <= 3.01  -->  5
+                                pH > 3.01  -->  
+                                    residualSugar <= 17.65  -->  
+                                        chlorides <= 0.053  -->  6
+                                        chlorides > 0.053  -->  6
+                                    residualSugar > 17.65  -->  
+                                        chlorides <= 0.0515  -->  5
+                                        chlorides > 0.0515  -->  6
+                            sulphates > 0.455  -->  
+                                chlorides <= 0.056  -->  
+                                    residualSugar <= 12.925  -->  6
+                                    residualSugar > 12.925  -->  
+                                        pH <= 3.19  -->  6
+                                        pH > 3.19  -->  6
+                                chlorides > 0.056  -->  5
+    volatileAcidity > 0.2525  -->  
+        freeSulfurDioxide <= 17.5  -->  
+            pH <= 3.285  -->  
+                sulphates <= 0.555  -->  
+                    totalSulfurDioxide <= 59.5  -->  
+                        density <= 0.99225  -->  
+                            citricAcid <= 0.45  -->  6
+                            citricAcid > 0.45  -->  4
+                        density > 0.99225  -->  
+                            residualSugar <= 1.5  -->  
+                                chlorides <= 0.0405  -->  3
+                                chlorides > 0.0405  -->  4
+                            residualSugar > 1.5  -->  5
+                    totalSulfurDioxide > 59.5  -->  
+                        density <= 0.9944  -->  
+                            residualSugar <= 2.55  -->  
+                                citricAcid <= 0.395  -->  
+                                    fixedAcidity <= 6.7  -->  
+                                        chlorides <= 0.0585  -->  5
+                                        chlorides > 0.0585  -->  4
+                                    fixedAcidity > 6.7  -->  
+                                        chlorides <= 0.0605  -->  5
+                                        chlorides > 0.0605  -->  5
+                                citricAcid > 0.395  -->  
+                                    chlorides <= 0.126  -->  5
+                                    chlorides > 0.126  -->  
+                                        fixedAcidity <= 6.45  -->  5
+                                        fixedAcidity > 6.45  -->  5
+                            residualSugar > 2.55  -->  
+                                chlorides <= 0.0615  -->  5
+                                chlorides > 0.0615  -->  
+                                    citricAcid <= 0.25  -->  4
+                                    citricAcid > 0.25  -->  5
+                        density > 0.9944  -->  
+                            citricAcid <= 0.47  -->  
+                                fixedAcidity <= 6.75  -->  
+                                    residualSugar <= 12.6  -->  
+                                        chlorides <= 0.0435  -->  5
+                                        chlorides > 0.0435  -->  4
+                                    residualSugar > 12.6  -->  6
+                                fixedAcidity > 6.75  -->  
+                                    chlorides <= 0.0515  -->  
+                                        residualSugar <= 1.7  -->  4
+                                        residualSugar > 1.7  -->  5
+                                    chlorides > 0.0515  -->  
+                                        residualSugar <= 7.5  -->  5
+                                        residualSugar > 7.5  -->  5
+                            citricAcid > 0.47  -->  
+                                chlorides <= 0.0455  -->  
+                                    residualSugar <= 8.775  -->  6
+                                    residualSugar > 8.775  -->  5
+                                chlorides > 0.0455  -->  5
+                sulphates > 0.555  -->  
+                    citricAcid <= 0.395  -->  
+                        residualSugar <= 2.175  -->  
+                            density <= 0.99284  -->  
+                                totalSulfurDioxide <= 154.5  -->  7
+                                totalSulfurDioxide > 154.5  -->  5
+                            density > 0.99284  -->  
+                                chlorides <= 0.042  -->  5
+                                chlorides > 0.042  -->  
+                                    totalSulfurDioxide <= 129.0  -->  
+                                        fixedAcidity <= 5.9  -->  4
+                                        fixedAcidity > 5.9  -->  6
+                                    totalSulfurDioxide > 129.0  -->  4
+                        residualSugar > 2.175  -->  
+                            fixedAcidity <= 6.45  -->  6
+                            fixedAcidity > 6.45  -->  5
+                    citricAcid > 0.395  -->  
+                        chlorides <= 0.0485  -->  4
+                        chlorides > 0.0485  -->  
+                            density <= 0.99612  -->  
+                                residualSugar <= 1.3  -->  4
+                                residualSugar > 1.3  -->  6
+                            density > 0.99612  -->  4
+            pH > 3.285  -->  
+                totalSulfurDioxide <= 88.5  -->  
+                    residualSugar <= 1.65  -->  5
+                    residualSugar > 1.65  -->  
+                        sulphates <= 0.46  -->  5
+                        sulphates > 0.46  -->  
+                            chlorides <= 0.043  -->  
+                                density <= 0.9937  -->  4
+                                density > 0.9937  -->  5
+                            chlorides > 0.043  -->  4
+                totalSulfurDioxide > 88.5  -->  
+                    sulphates <= 0.465  -->  
+                        chlorides <= 0.05  -->  
+                            fixedAcidity <= 7.15  -->  6
+                            fixedAcidity > 7.15  -->  4
+                        chlorides > 0.05  -->  4
+                    sulphates > 0.465  -->  
+                        density <= 0.99408  -->  
+                            residualSugar <= 1.55  -->  
+                                citricAcid <= 0.235  -->  5
+                                citricAcid > 0.235  -->  
+                                    fixedAcidity <= 5.9  -->  6
+                                    fixedAcidity > 5.9  -->  7
+                            residualSugar > 1.55  -->  6
+                        density > 0.99408  -->  
+                            citricAcid <= 0.465  -->  
+                                chlorides <= 0.0515  -->  5
+                                chlorides > 0.0515  -->  
+                                    fixedAcidity <= 6.9  -->  
+                                        residualSugar <= 1.35  -->  6
+                                        residualSugar > 1.35  -->  5
+                                    fixedAcidity > 6.9  -->  6
+                            citricAcid > 0.465  -->  
+                                chlorides <= 0.043  -->  6
+                                chlorides > 0.043  -->  4
+        freeSulfurDioxide > 17.5  -->  
+            pH <= 3.345  -->  
+                chlorides <= 0.0495  -->  
+                    citricAcid <= 0.225  -->  
+                        totalSulfurDioxide <= 114.5  -->  
+                            density <= 0.99385  -->  
+                                sulphates <= 0.4  -->  
+                                    residualSugar <= 3.7  -->  
+                                        fixedAcidity <= 6.35  -->  6
+                                        fixedAcidity > 6.35  -->  5
+                                    residualSugar > 3.7  -->  
+                                        fixedAcidity <= 6.45  -->  4
+                                        fixedAcidity > 6.45  -->  6
+                                sulphates > 0.4  -->  
+                                    fixedAcidity <= 6.45  -->  5
+                                    fixedAcidity > 6.45  -->  4
+                            density > 0.99385  -->  
+                                sulphates <= 0.34  -->  5
+                                sulphates > 0.34  -->  6
+                        totalSulfurDioxide > 114.5  -->  
+                            sulphates <= 0.445  -->  
+                                residualSugar <= 3.1  -->  
+                                    fixedAcidity <= 6.75  -->  
+                                        density <= 0.99179  -->  6
+                                        density > 0.99179  -->  5
+                                    fixedAcidity > 6.75  -->  5
+                                residualSugar > 3.1  -->  
+                                    density <= 0.99578  -->  
+                                        fixedAcidity <= 5.8  -->  5
+                                        fixedAcidity > 5.8  -->  6
+                                    density > 0.99578  -->  
+                                        fixedAcidity <= 7.5  -->  5
+                                        fixedAcidity > 7.5  -->  6
+                            sulphates > 0.445  -->  
+                                fixedAcidity <= 6.25  -->  
+                                    residualSugar <= 6.35  -->  
+                                        density <= 0.99299  -->  6
+                                        density > 0.99299  -->  5
+                                    residualSugar > 6.35  -->  
+                                        density <= 0.99709  -->  6
+                                        density > 0.99709  -->  5
+                                fixedAcidity > 6.25  -->  
+                                    density <= 0.99781  -->  
+                                        residualSugar <= 1.7  -->  5
+                                        residualSugar > 1.7  -->  5
+                                    density > 0.99781  -->  
+                                        residualSugar <= 14.4  -->  6
+                                        residualSugar > 14.4  -->  5
+                    citricAcid > 0.225  -->  
+                        totalSulfurDioxide <= 141.5  -->  
+                            fixedAcidity <= 8.5  -->  
+                                sulphates <= 0.545  -->  
+                                    density <= 0.99529  -->  
+                                        residualSugar <= 0.95  -->  4
+                                        residualSugar > 0.95  -->  6
+                                    density > 0.99529  -->  
+                                        residualSugar <= 16.4  -->  6
+                                        residualSugar > 16.4  -->  6
+                                sulphates > 0.545  -->  
+                                    residualSugar <= 1.35  -->  
+                                        density <= 0.99179  -->  6
+                                        density > 0.99179  -->  5
+                                    residualSugar > 1.35  -->  
+                                        density <= 0.99294  -->  6
+                                        density > 0.99294  -->  6
+                            fixedAcidity > 8.5  -->  
+                                density <= 0.99607  -->  5
+                                density > 0.99607  -->  
+                                    sulphates <= 0.485  -->  
+                                        residualSugar <= 11.2  -->  9
+                                        residualSugar > 11.2  -->  4
+                                    sulphates > 0.485  -->  4
+                        totalSulfurDioxide > 141.5  -->  
+                            residualSugar <= 13.85  -->  
+                                sulphates <= 0.485  -->  
+                                    fixedAcidity <= 6.15  -->  
+                                        density <= 0.99265  -->  6
+                                        density > 0.99265  -->  5
+                                    fixedAcidity > 6.15  -->  
+                                        density <= 0.99839  -->  5
+                                        density > 0.99839  -->  6
+                                sulphates > 0.485  -->  
+                                    density <= 0.99787  -->  
+                                        fixedAcidity <= 6.85  -->  5
+                                        fixedAcidity > 6.85  -->  6
+                                    density > 0.99787  -->  
+                                        fixedAcidity <= 8.25  -->  5
+                                        fixedAcidity > 8.25  -->  6
+                            residualSugar > 13.85  -->  
+                                fixedAcidity <= 7.35  -->  
+                                    sulphates <= 0.565  -->  
+                                        density <= 0.99943  -->  5
+                                        density > 0.99943  -->  5
+                                    sulphates > 0.565  -->  
+                                        density <= 0.99859  -->  7
+                                        density > 0.99859  -->  6
+                                fixedAcidity > 7.35  -->  
+                                    sulphates <= 0.665  -->  
+                                        density <= 0.99968  -->  5
+                                        density > 0.99968  -->  6
+                                    sulphates > 0.665  -->  
+                                        density <= 0.99948  -->  5
+                                        density > 0.99948  -->  5
+                chlorides > 0.0495  -->  
+                    density <= 0.99676  -->  
+                        residualSugar <= 10.55  -->  
+                            citricAcid <= 0.155  -->  
+                                sulphates <= 0.565  -->  
+                                    totalSulfurDioxide <= 110.5  -->  5
+                                    totalSulfurDioxide > 110.5  -->  
+                                        fixedAcidity <= 6.05  -->  5
+                                        fixedAcidity > 6.05  -->  5
+                                sulphates > 0.565  -->  6
+                            citricAcid > 0.155  -->  
+                                totalSulfurDioxide <= 163.5  -->  
+                                    fixedAcidity <= 6.15  -->  
+                                        sulphates <= 0.445  -->  6
+                                        sulphates > 0.445  -->  6
+                                    fixedAcidity > 6.15  -->  
+                                        sulphates <= 0.615  -->  5
+                                        sulphates > 0.615  -->  5
+                                totalSulfurDioxide > 163.5  -->  
+                                    sulphates <= 0.515  -->  
+                                        fixedAcidity <= 7.15  -->  5
+                                        fixedAcidity > 7.15  -->  6
+                                    sulphates > 0.515  -->  
+                                        fixedAcidity <= 6.15  -->  6
+                                        fixedAcidity > 6.15  -->  5
+                        residualSugar > 10.55  -->  
+                            citricAcid <= 0.325  -->  6
+                            citricAcid > 0.325  -->  
+                                sulphates <= 0.605  -->  
+                                    totalSulfurDioxide <= 153.5  -->  5
+                                    totalSulfurDioxide > 153.5  -->  6
+                                sulphates > 0.605  -->  7
+                    density > 0.99676  -->  
+                        residualSugar <= 15.5  -->  
+                            totalSulfurDioxide <= 193.5  -->  
+                                citricAcid <= 0.325  -->  
+                                    sulphates <= 0.425  -->  6
+                                    sulphates > 0.425  -->  
+                                        fixedAcidity <= 7.55  -->  5
+                                        fixedAcidity > 7.55  -->  4
+                                citricAcid > 0.325  -->  
+                                    sulphates <= 0.54  -->  
+                                        fixedAcidity <= 7.15  -->  7
+                                        fixedAcidity > 7.15  -->  5
+                                    sulphates > 0.54  -->  
+                                        fixedAcidity <= 6.25  -->  6
+                                        fixedAcidity > 6.25  -->  5
+                            totalSulfurDioxide > 193.5  -->  
+                                sulphates <= 0.505  -->  
+                                    citricAcid <= 0.255  -->  
+                                        fixedAcidity <= 7.35  -->  5
+                                        fixedAcidity > 7.35  -->  6
+                                    citricAcid > 0.255  -->  5
+                                sulphates > 0.505  -->  
+                                    citricAcid <= 0.35  -->  6
+                                    citricAcid > 0.35  -->  
+                                        fixedAcidity <= 7.45  -->  6
+                                        fixedAcidity > 7.45  -->  5
+                        residualSugar > 15.5  -->  
+                            fixedAcidity <= 7.75  -->  
+                                citricAcid <= 0.185  -->  6
+                                citricAcid > 0.185  -->  
+                                    totalSulfurDioxide <= 152.0  -->  5
+                                    totalSulfurDioxide > 152.0  -->  
+                                        sulphates <= 0.445  -->  6
+                                        sulphates > 0.445  -->  5
+                            fixedAcidity > 7.75  -->  
+                                sulphates <= 0.655  -->  
+                                    citricAcid <= 0.225  -->  3
+                                    citricAcid > 0.225  -->  6
+                                sulphates > 0.655  -->  5
+            pH > 3.345  -->  
+                chlorides <= 0.0555  -->  
+                    totalSulfurDioxide <= 160.5  -->  
+                        density <= 0.99585  -->  
+                            residualSugar <= 1.55  -->  
+                                fixedAcidity <= 5.8  -->  6
+                                fixedAcidity > 5.8  -->  
+                                    citricAcid <= 0.305  -->  
+                                        sulphates <= 0.56  -->  5
+                                        sulphates > 0.56  -->  6
+                                    citricAcid > 0.305  -->  6
+                            residualSugar > 1.55  -->  
+                                sulphates <= 0.515  -->  
+                                    citricAcid <= 0.245  -->  
+                                        fixedAcidity <= 5.55  -->  7
+                                        fixedAcidity > 5.55  -->  6
+                                    citricAcid > 0.245  -->  
+                                        fixedAcidity <= 5.85  -->  7
+                                        fixedAcidity > 5.85  -->  7
+                                sulphates > 0.515  -->  
+                                    citricAcid <= 0.38  -->  
+                                        fixedAcidity <= 6.1  -->  6
+                                        fixedAcidity > 6.1  -->  6
+                                    citricAcid > 0.38  -->  5
+                        density > 0.99585  -->  
+                            residualSugar <= 11.95  -->  
+                                fixedAcidity <= 6.3  -->  5
+                                fixedAcidity > 6.3  -->  
+                                    sulphates <= 0.735  -->  
+                                        citricAcid <= 0.315  -->  6
+                                        citricAcid > 0.315  -->  5
+                                    sulphates > 0.735  -->  6
+                            residualSugar > 11.95  -->  6
+                    totalSulfurDioxide > 160.5  -->  
+                        residualSugar <= 7.45  -->  
+                            density <= 0.9953  -->  
+                                fixedAcidity <= 6.85  -->  
+                                    sulphates <= 0.635  -->  
+                                        citricAcid <= 0.315  -->  6
+                                        citricAcid > 0.315  -->  5
+                                    sulphates > 0.635  -->  3
+                                fixedAcidity > 6.85  -->  
+                                    sulphates <= 0.585  -->  4
+                                    sulphates > 0.585  -->  
+                                        citricAcid <= 0.275  -->  4
+                                        citricAcid > 0.275  -->  6
+                            density > 0.9953  -->  6
+                        residualSugar > 7.45  -->  
+                            fixedAcidity <= 6.15  -->  5
+                            fixedAcidity > 6.15  -->  
+                                citricAcid <= 0.415  -->  
+                                    sulphates <= 0.44  -->  5
+                                    sulphates > 0.44  -->  
+                                        density <= 0.9985  -->  6
+                                        density > 0.9985  -->  6
+                                citricAcid > 0.415  -->  6
+                chlorides > 0.0555  -->  
+                    totalSulfurDioxide <= 196.5  -->  
+                        sulphates <= 0.43  -->  5
+                        sulphates > 0.43  -->  
+                            fixedAcidity <= 7.35  -->  4
+                            fixedAcidity > 7.35  -->  6
+                    totalSulfurDioxide > 196.5  -->  
+                        citricAcid <= 0.175  -->  4
+                        citricAcid > 0.175  -->  5
+alcohol > 10.85  -->  
+    freeSulfurDioxide <= 11.5  -->  
+        citricAcid <= 0.245  -->  
+            density <= 0.98982  -->  
+                sulphates <= 0.42  -->  5
+                sulphates > 0.42  -->  7
+            density > 0.98982  -->  
+                residualSugar <= 4.45  -->  
+                    chlorides <= 0.0475  -->  4
+                    chlorides > 0.0475  -->  5
+                residualSugar > 4.45  -->  
+                    sulphates <= 0.5  -->  5
+                    sulphates > 0.5  -->  7
+        citricAcid > 0.245  -->  
+            pH <= 3.265  -->  
+                residualSugar <= 6.0  -->  
+                    fixedAcidity <= 7.75  -->  
+                        totalSulfurDioxide <= 101.5  -->  
+                            volatileAcidity <= 0.265  -->  
+                                density <= 0.99101  -->  6
+                                density > 0.99101  -->  
+                                    sulphates <= 0.455  -->  6
+                                    sulphates > 0.455  -->  
+                                        chlorides <= 0.0295  -->  6
+                                        chlorides > 0.0295  -->  5
+                            volatileAcidity > 0.265  -->  
+                                sulphates <= 0.395  -->  4
+                                sulphates > 0.395  -->  
+                                    density <= 0.99025  -->  
+                                        chlorides <= 0.0195  -->  5
+                                        chlorides > 0.0195  -->  6
+                                    density > 0.99025  -->  
+                                        chlorides <= 0.0415  -->  4
+                                        chlorides > 0.0415  -->  5
+                        totalSulfurDioxide > 101.5  -->  
+                            volatileAcidity <= 0.25  -->  
+                                sulphates <= 0.58  -->  4
+                                sulphates > 0.58  -->  6
+                            volatileAcidity > 0.25  -->  6
+                    fixedAcidity > 7.75  -->  
+                        sulphates <= 0.47  -->  
+                            chlorides <= 0.0425  -->  
+                                volatileAcidity <= 0.315  -->  
+                                    density <= 0.99195  -->  
+                                        totalSulfurDioxide <= 58.0  -->  4
+                                        totalSulfurDioxide > 58.0  -->  6
+                                    density > 0.99195  -->  4
+                                volatileAcidity > 0.315  -->  6
+                            chlorides > 0.0425  -->  
+                                density <= 0.99154  -->  5
+                                density > 0.99154  -->  6
+                        sulphates > 0.47  -->  
+                            density <= 0.99395  -->  5
+                            density > 0.99395  -->  4
+                residualSugar > 6.0  -->  
+                    density <= 0.99384  -->  
+                        sulphates <= 0.44  -->  
+                            chlorides <= 0.0405  -->  
+                                totalSulfurDioxide <= 104.5  -->  
+                                    volatileAcidity <= 0.315  -->  6
+                                    volatileAcidity > 0.315  -->  
+                                        fixedAcidity <= 7.7  -->  6
+                                        fixedAcidity > 7.7  -->  7
+                                totalSulfurDioxide > 104.5  -->  7
+                            chlorides > 0.0405  -->  5
+                        sulphates > 0.44  -->  
+                            chlorides <= 0.0275  -->  
+                                totalSulfurDioxide <= 58.5  -->  5
+                                totalSulfurDioxide > 58.5  -->  7
+                            chlorides > 0.0275  -->  8
+                    density > 0.99384  -->  
+                        totalSulfurDioxide <= 76.5  -->  
+                            sulphates <= 0.395  -->  6
+                            sulphates > 0.395  -->  
+                                chlorides <= 0.041  -->  6
+                                chlorides > 0.041  -->  5
+                        totalSulfurDioxide > 76.5  -->  5
+            pH > 3.265  -->  
+                chlorides <= 0.03  -->  
+                    density <= 0.9908  -->  
+                        residualSugar <= 1.35  -->  6
+                        residualSugar > 1.35  -->  7
+                    density > 0.9908  -->  3
+                chlorides > 0.03  -->  
+                    volatileAcidity <= 0.48  -->  
+                        fixedAcidity <= 7.2  -->  
+                            density <= 0.9912  -->  
+                                sulphates <= 0.39  -->  
+                                    totalSulfurDioxide <= 73.5  -->  
+                                        residualSugar <= 1.4  -->  5
+                                        residualSugar > 1.4  -->  4
+                                    totalSulfurDioxide > 73.5  -->  4
+                                sulphates > 0.39  -->  5
+                            density > 0.9912  -->  
+                                totalSulfurDioxide <= 111.0  -->  7
+                                totalSulfurDioxide > 111.0  -->  
+                                    sulphates <= 0.68  -->  4
+                                    sulphates > 0.68  -->  5
+                        fixedAcidity > 7.2  -->  6
+                    volatileAcidity > 0.48  -->  6
+    freeSulfurDioxide > 11.5  -->  
+        chlorides <= 0.0395  -->  
+            fixedAcidity <= 8.25  -->  
+                pH <= 3.245  -->  
+                    residualSugar <= 2.25  -->  
+                        density <= 0.99166  -->  
+                            totalSulfurDioxide <= 95.5  -->  
+                                sulphates <= 0.405  -->  
+                                    volatileAcidity <= 0.28  -->  
+                                        citricAcid <= 0.275  -->  6
+                                        citricAcid > 0.275  -->  6
+                                    volatileAcidity > 0.28  -->  
+                                        citricAcid <= 0.115  -->  4
+                                        citricAcid > 0.115  -->  6
+                                sulphates > 0.405  -->  
+                                    volatileAcidity <= 0.5  -->  
+                                        citricAcid <= 0.285  -->  6
+                                        citricAcid > 0.285  -->  6
+                                    volatileAcidity > 0.5  -->  4
+                            totalSulfurDioxide > 95.5  -->  
+                                citricAcid <= 0.405  -->  
+                                    sulphates <= 0.49  -->  
+                                        volatileAcidity <= 0.235  -->  7
+                                        volatileAcidity > 0.235  -->  6
+                                    sulphates > 0.49  -->  
+                                        volatileAcidity <= 0.305  -->  6
+                                        volatileAcidity > 0.305  -->  7
+                                citricAcid > 0.405  -->  
+                                    sulphates <= 0.295  -->  7
+                                    sulphates > 0.295  -->  
+                                        volatileAcidity <= 0.295  -->  6
+                                        volatileAcidity > 0.295  -->  6
+                        density > 0.99166  -->  
+                            totalSulfurDioxide <= 142.0  -->  
+                                sulphates <= 0.425  -->  
+                                    citricAcid <= 0.35  -->  
+                                        volatileAcidity <= 0.295  -->  5
+                                        volatileAcidity > 0.295  -->  6
+                                    citricAcid > 0.35  -->  5
+                                sulphates > 0.425  -->  
+                                    citricAcid <= 0.345  -->  
+                                        volatileAcidity <= 0.31  -->  5
+                                        volatileAcidity > 0.31  -->  6
+                                    citricAcid > 0.345  -->  6
+                            totalSulfurDioxide > 142.0  -->  6
+                    residualSugar > 2.25  -->  
+                        density <= 0.99239  -->  
+                            totalSulfurDioxide <= 160.0  -->  
+                                citricAcid <= 0.17  -->  
+                                    sulphates <= 0.495  -->  
+                                        volatileAcidity <= 0.49  -->  6
+                                        volatileAcidity > 0.49  -->  5
+                                    sulphates > 0.495  -->  8
+                                citricAcid > 0.17  -->  
+                                    sulphates <= 0.565  -->  
+                                        volatileAcidity <= 0.215  -->  7
+                                        volatileAcidity > 0.215  -->  7
+                                    sulphates > 0.565  -->  
+                                        volatileAcidity <= 0.335  -->  7
+                                        volatileAcidity > 0.335  -->  7
+                            totalSulfurDioxide > 160.0  -->  6
+                        density > 0.99239  -->  
+                            totalSulfurDioxide <= 77.0  -->  
+                                sulphates <= 0.415  -->  
+                                    citricAcid <= 0.225  -->  4
+                                    citricAcid > 0.225  -->  3
+                                sulphates > 0.415  -->  
+                                    citricAcid <= 0.325  -->  6
+                                    citricAcid > 0.325  -->  
+                                        volatileAcidity <= 0.235  -->  6
+                                        volatileAcidity > 0.235  -->  5
+                            totalSulfurDioxide > 77.0  -->  
+                                sulphates <= 0.565  -->  
+                                    volatileAcidity <= 0.435  -->  
+                                        citricAcid <= 0.255  -->  5
+                                        citricAcid > 0.255  -->  6
+                                    volatileAcidity > 0.435  -->  
+                                        citricAcid <= 0.745  -->  7
+                                        citricAcid > 0.745  -->  6
+                                sulphates > 0.565  -->  
+                                    citricAcid <= 0.39  -->  6
+                                    citricAcid > 0.39  -->  
+                                        volatileAcidity <= 0.2  -->  4
+                                        volatileAcidity > 0.2  -->  6
+                pH > 3.245  -->  
+                    residualSugar <= 6.75  -->  
+                        citricAcid <= 0.335  -->  
+                            sulphates <= 0.595  -->  
+                                volatileAcidity <= 0.295  -->  
+                                    density <= 0.99164  -->  
+                                        totalSulfurDioxide <= 97.5  -->  6
+                                        totalSulfurDioxide > 97.5  -->  7
+                                    density > 0.99164  -->  
+                                        totalSulfurDioxide <= 128.5  -->  6
+                                        totalSulfurDioxide > 128.5  -->  5
+                                volatileAcidity > 0.295  -->  
+                                    density <= 0.98741  -->  
+                                        totalSulfurDioxide <= 125.0  -->  5
+                                        totalSulfurDioxide > 125.0  -->  8
+                                    density > 0.98741  -->  
+                                        totalSulfurDioxide <= 121.5  -->  7
+                                        totalSulfurDioxide > 121.5  -->  7
+                            sulphates > 0.595  -->  
+                                density <= 0.98996  -->  
+                                    totalSulfurDioxide <= 110.0  -->  
+                                        volatileAcidity <= 0.2575  -->  8
+                                        volatileAcidity > 0.2575  -->  8
+                                    totalSulfurDioxide > 110.0  -->  
+                                        volatileAcidity <= 0.6425  -->  7
+                                        volatileAcidity > 0.6425  -->  6
+                                density > 0.98996  -->  
+                                    totalSulfurDioxide <= 118.5  -->  
+                                        volatileAcidity <= 0.315  -->  7
+                                        volatileAcidity > 0.315  -->  7
+                                    totalSulfurDioxide > 118.5  -->  
+                                        volatileAcidity <= 0.315  -->  7
+                                        volatileAcidity > 0.315  -->  6
+                        citricAcid > 0.335  -->  
+                            sulphates <= 0.405  -->  
+                                density <= 0.98968  -->  
+                                    volatileAcidity <= 0.305  -->  
+                                        totalSulfurDioxide <= 84.5  -->  7
+                                        totalSulfurDioxide > 84.5  -->  6
+                                    volatileAcidity > 0.305  -->  8
+                                density > 0.98968  -->  
+                                    volatileAcidity <= 0.315  -->  
+                                        totalSulfurDioxide <= 171.0  -->  7
+                                        totalSulfurDioxide > 171.0  -->  8
+                                    volatileAcidity > 0.315  -->  
+                                        totalSulfurDioxide <= 122.0  -->  9
+                                        totalSulfurDioxide > 122.0  -->  7
+                            sulphates > 0.405  -->  
+                                volatileAcidity <= 0.155  -->  
+                                    totalSulfurDioxide <= 107.5  -->  
+                                        density <= 0.99202  -->  6
+                                        density > 0.99202  -->  5
+                                    totalSulfurDioxide > 107.5  -->  
+                                        density <= 0.99188  -->  5
+                                        density > 0.99188  -->  8
+                                volatileAcidity > 0.155  -->  
+                                    totalSulfurDioxide <= 86.5  -->  
+                                        density <= 0.99084  -->  6
+                                        density > 0.99084  -->  5
+                                    totalSulfurDioxide > 86.5  -->  
+                                        density <= 0.99065  -->  6
+                                        density > 0.99065  -->  6
+                    residualSugar > 6.75  -->  
+                        totalSulfurDioxide <= 137.0  -->  
+                            density <= 0.99316  -->  
+                                sulphates <= 0.285  -->  7
+                                sulphates > 0.285  -->  
+                                    volatileAcidity <= 0.435  -->  
+                                        citricAcid <= 0.35  -->  6
+                                        citricAcid > 0.35  -->  6
+                                    volatileAcidity > 0.435  -->  
+                                        citricAcid <= 0.295  -->  8
+                                        citricAcid > 0.295  -->  7
+                            density > 0.99316  -->  
+                                sulphates <= 0.515  -->  
+                                    citricAcid <= 0.33  -->  
+                                        volatileAcidity <= 0.26  -->  8
+                                        volatileAcidity > 0.26  -->  7
+                                    citricAcid > 0.33  -->  7
+                                sulphates > 0.515  -->  
+                                    volatileAcidity <= 0.205  -->  7
+                                    volatileAcidity > 0.205  -->  6
+                        totalSulfurDioxide > 137.0  -->  
+                            sulphates <= 0.42  -->  8
+                            sulphates > 0.42  -->  
+                                citricAcid <= 0.36  -->  
+                                    density <= 0.99438  -->  
+                                        volatileAcidity <= 0.495  -->  6
+                                        volatileAcidity > 0.495  -->  6
+                                    density > 0.99438  -->  8
+                                citricAcid > 0.36  -->  6
+            fixedAcidity > 8.25  -->  
+                sulphates <= 0.5  -->  
+                    citricAcid <= 0.32  -->  
+                        pH <= 3.0  -->  
+                            totalSulfurDioxide <= 178.0  -->  5
+                            totalSulfurDioxide > 178.0  -->  3
+                        pH > 3.0  -->  
+                            volatileAcidity <= 0.315  -->  6
+                            volatileAcidity > 0.315  -->  5
+                    citricAcid > 0.32  -->  
+                        residualSugar <= 4.85  -->  
+                            volatileAcidity <= 0.24  -->  5
+                            volatileAcidity > 0.24  -->  
+                                pH <= 3.175  -->  7
+                                pH > 3.175  -->  3
+                        residualSugar > 4.85  -->  
+                            totalSulfurDioxide <= 93.0  -->  
+                                volatileAcidity <= 0.275  -->  5
+                                volatileAcidity > 0.275  -->  
+                                    pH <= 3.0  -->  
+                                        density <= 0.99375  -->  5
+                                        density > 0.99375  -->  6
+                                    pH > 3.0  -->  7
+                            totalSulfurDioxide > 93.0  -->  
+                                pH <= 3.015  -->  6
+                                pH > 3.015  -->  
+                                    density <= 0.99345  -->  
+                                        volatileAcidity <= 0.255  -->  7
+                                        volatileAcidity > 0.255  -->  6
+                                    density > 0.99345  -->  6
+                sulphates > 0.5  -->  
+                    residualSugar <= 3.95  -->  
+                        density <= 0.99074  -->  7
+                        density > 0.99074  -->  
+                            pH <= 3.065  -->  6
+                            pH > 3.065  -->  
+                                totalSulfurDioxide <= 133.0  -->  7
+                                totalSulfurDioxide > 133.0  -->  6
+                    residualSugar > 3.95  -->  4
+        chlorides > 0.0395  -->  
+            volatileAcidity <= 0.165  -->  
+                density <= 0.99029  -->  
+                    sulphates <= 0.345  -->  8
+                    sulphates > 0.345  -->  7
+                density > 0.99029  -->  
+                    fixedAcidity <= 6.1  -->  6
+                    fixedAcidity > 6.1  -->  
+                        pH <= 3.045  -->  
+                            sulphates <= 0.46  -->  5
+                            sulphates > 0.46  -->  6
+                        pH > 3.045  -->  
+                            citricAcid <= 0.485  -->  
+                                totalSulfurDioxide <= 119.5  -->  
+                                    residualSugar <= 5.325  -->  
+                                        sulphates <= 0.91  -->  6
+                                        sulphates > 0.91  -->  7
+                                    residualSugar > 5.325  -->  7
+                                totalSulfurDioxide > 119.5  -->  
+                                    sulphates <= 0.685  -->  
+                                        residualSugar <= 1.35  -->  6
+                                        residualSugar > 1.35  -->  7
+                                    sulphates > 0.685  -->  7
+                            citricAcid > 0.485  -->  6
+            volatileAcidity > 0.165  -->  
+                residualSugar <= 2.25  -->  
+                    sulphates <= 0.885  -->  
+                        totalSulfurDioxide <= 97.0  -->  
+                            citricAcid <= 0.405  -->  
+                                density <= 0.991  -->  
+                                    fixedAcidity <= 7.2  -->  
+                                        pH <= 3.265  -->  6
+                                        pH > 3.265  -->  6
+                                    fixedAcidity > 7.2  -->  6
+                                density > 0.991  -->  
+                                    pH <= 3.4  -->  
+                                        fixedAcidity <= 7.1  -->  7
+                                        fixedAcidity > 7.1  -->  6
+                                    pH > 3.4  -->  6
+                            citricAcid > 0.405  -->  
+                                pH <= 3.02  -->  5
+                                pH > 3.02  -->  6
+                        totalSulfurDioxide > 97.0  -->  
+                            citricAcid <= 0.365  -->  
+                                pH <= 3.305  -->  
+                                    density <= 0.99179  -->  
+                                        fixedAcidity <= 7.9  -->  6
+                                        fixedAcidity > 7.9  -->  6
+                                    density > 0.99179  -->  
+                                        fixedAcidity <= 7.9  -->  6
+                                        fixedAcidity > 7.9  -->  5
+                                pH > 3.305  -->  
+                                    density <= 0.99201  -->  
+                                        fixedAcidity <= 6.15  -->  6
+                                        fixedAcidity > 6.15  -->  6
+                                    density > 0.99201  -->  
+                                        fixedAcidity <= 7.5  -->  5
+                                        fixedAcidity > 7.5  -->  6
+                            citricAcid > 0.365  -->  
+                                fixedAcidity <= 8.05  -->  
+                                    density <= 0.99005  -->  
+                                        pH <= 3.09  -->  6
+                                        pH > 3.09  -->  7
+                                    density > 0.99005  -->  
+                                        pH <= 3.255  -->  5
+                                        pH > 3.255  -->  5
+                                fixedAcidity > 8.05  -->  
+                                    pH <= 3.16  -->  
+                                        density <= 0.9931  -->  7
+                                        density > 0.9931  -->  5
+                                    pH > 3.16  -->  
+                                        density <= 0.9933  -->  6
+                                        density > 0.9933  -->  6
+                    sulphates > 0.885  -->  
+                        totalSulfurDioxide <= 92.5  -->  7
+                        totalSulfurDioxide > 92.5  -->  8
+                residualSugar > 2.25  -->  
+                    density <= 0.99137  -->  
+                        pH <= 3.04  -->  
+                            sulphates <= 0.44  -->  
+                                citricAcid <= 0.375  -->  8
+                                citricAcid > 0.375  -->  
+                                    totalSulfurDioxide <= 76.0  -->  4
+                                    totalSulfurDioxide > 76.0  -->  6
+                            sulphates > 0.44  -->  6
+                        pH > 3.04  -->  
+                            sulphates <= 0.635  -->  
+                                totalSulfurDioxide <= 80.5  -->  6
+                                totalSulfurDioxide > 80.5  -->  
+                                    fixedAcidity <= 5.75  -->  
+                                        citricAcid <= 0.27  -->  5
+                                        citricAcid > 0.27  -->  6
+                                    fixedAcidity > 5.75  -->  
+                                        citricAcid <= 0.345  -->  7
+                                        citricAcid > 0.345  -->  6
+                            sulphates > 0.635  -->  7
+                    density > 0.99137  -->  
+                        citricAcid <= 0.255  -->  
+                            pH <= 3.135  -->  
+                                totalSulfurDioxide <= 96.5  -->  
+                                    sulphates <= 0.29  -->  4
+                                    sulphates > 0.29  -->  8
+                                totalSulfurDioxide > 96.5  -->  
+                                    sulphates <= 0.5  -->  6
+                                    sulphates > 0.5  -->  
+                                        fixedAcidity <= 7.1  -->  6
+                                        fixedAcidity > 7.1  -->  4
+                            pH > 3.135  -->  
+                                fixedAcidity <= 6.1  -->  
+                                    totalSulfurDioxide <= 137.5  -->  5
+                                    totalSulfurDioxide > 137.5  -->  6
+                                fixedAcidity > 6.1  -->  
+                                    sulphates <= 0.585  -->  
+                                        totalSulfurDioxide <= 141.5  -->  5
+                                        totalSulfurDioxide > 141.5  -->  5
+                                    sulphates > 0.585  -->  7
+                        citricAcid > 0.255  -->  
+                            fixedAcidity <= 6.55  -->  
+                                pH <= 2.975  -->  7
+                                pH > 2.975  -->  
+                                    sulphates <= 0.565  -->  
+                                        totalSulfurDioxide <= 103.5  -->  6
+                                        totalSulfurDioxide > 103.5  -->  6
+                                    sulphates > 0.565  -->  
+                                        totalSulfurDioxide <= 140.5  -->  7
+                                        totalSulfurDioxide > 140.5  -->  6
+                            fixedAcidity > 6.55  -->  
+                                totalSulfurDioxide <= 308.75  -->  
+                                    pH <= 3.03  -->  
+                                        sulphates <= 0.49  -->  6
+                                        sulphates > 0.49  -->  6
+                                    pH > 3.03  -->  
+                                        sulphates <= 0.505  -->  6
+                                        sulphates > 0.505  -->  6
+                                totalSulfurDioxide > 308.75  -->  3
